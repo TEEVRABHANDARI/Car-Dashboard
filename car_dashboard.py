@@ -72,8 +72,8 @@ col_logo, col_title = st.columns([1, 4])
 with col_logo:
     st.image(logo, width=120)
 with col_title:
-    st.markdown("### Smart Car Valuation Advisor")
-    st.markdown("Your Trusted Automotive Pricing Expert")
+    st.markdown("### CarMetrics")
+    st.markdown("Smarter Used Car Pricing with Machine Learning")
 
 st.sidebar.header("🔍 Search Filters")
 brand = st.sidebar.selectbox("Brand", sorted(df['brand'].unique()))
